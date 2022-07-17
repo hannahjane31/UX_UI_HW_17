@@ -1,3 +1,18 @@
+.grid {
+  display: grid;
+grid-template-columns: repeat(12, 1fr);
+gap: 30px;
+
+}
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -75,10 +90,11 @@ p2 {
   padding-bottom: 80px;
 }  
 
+/* Download CV Button */
+
 .container {
   position: relative;
   width: 60%;
-
 }
 
 .container img {
@@ -106,6 +122,26 @@ button:hover {
   color: #F5CCA2;
 }
 
+/* Project Cards */
+
+.card1 {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  margin-top: 25px;
+  background-color:#82a0dc;
+  padding-top: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  }
+
+.card1 a {
+  padding: 20px 40px;
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+  color: #553d0c;
+  }
+
 /* Footer */
 .footer {
   display: flex;
@@ -125,6 +161,7 @@ button:hover {
 a:hover {
   color: #F5CCA2;
 }
+
 
 
 
